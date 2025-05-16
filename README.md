@@ -5,31 +5,31 @@ Wings:
  ___**First Step**___ :-
  * cd pterodactyl
  
- **Second Step** :-
+ ___**Second Step**___ :-
  * cd wings
 
- **Third Step** :- 
+ ___**Third Step**___ :- 
  * ssh -R 80:localhost:443 serveo.net 
  
 ## *Create new tewrminal*
 
- **Fourth Step** :-
+ ___**Fourth Step**___ :-
  * cd pterodactyl
  
- **Fifith Step** :-
+ ___**Fifith Step**___ :-
  * sudo su
 
 ___On The Sixth Step Put Your Pterodactyl Wings Node Config On The config.yml___
 
- **Sixth Step** :- 
+ ___**Sixth Step**___ :- 
  * nano /etc/pterodactyl/config.yml 
 
 * ls  ___Check The docker file is there___
 
-**Seventh Step** :- 
+___**Seventh Step**___ :- 
 * cd wings
 
-**Final Last Step** :- 
+___**Final Last Step**___ :- 
 * docker-compose up -d --force-recreate
 
 ## Now Your Node Is Up! Create an server an Enjoy
